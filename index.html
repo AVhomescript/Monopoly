@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X UA Compatible" content="IE-edge">
+    <meta name="viewport" content-"width-device-width, initial-scale-1.0">
+    <title>Головна</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logoim.jpg">
+                    <h2>A<span class="danger">V</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" >
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h3>Головна</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">payments</span>
+                    <h3>Рахунки</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">query_stats </span>
+                    <h3>Аналітика</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Налаштування</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add_circle_outline</span>
+                    <h3>Додати ще</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add_circle_outline</span>
+                    <h3>Додати ще</h3>
+                </a>
+                <!-- <a href="#">
+                    <span class="material-icons-sharp">add_circle_outline</span>
+                    <h3>Додати ще</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add_circle_outline</span>
+                    <h3>Додати ще</h3>
+                </a> -->
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Вихід</h3>
+                </a>
+            </div>
+        </aside>
+        <main>
+            <h1>Рахунки</h1>
+
+            <div class="date">
+            <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="card1">
+                    <span class="material-icons-sharp">savings</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Основний рахунок</h3>
+                            <h1>₴70000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">За останні 24 години</small>
+                </div>
+                <div class="card2">
+                    <span class="material-icons-sharp">monetization_on</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>USDT рахунок</h3>
+                            <h1>700 USDT</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>65%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">За останні 24 години</small>
+                </div>
+                <div class="card3">
+                    <span class="material-icons-sharp">attach_money</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Долларовий рахунок</h3>
+                            <h1>$7000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">За останні 24 години</small>
+                </div> 
+            </div>
+            <div class="recent-transactions">
+                <h2>Останні транзакції</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Product1</td>
+                            <td>850</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Product1</td>
+                            <td>850</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Product1</td>
+                            <td>850</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Product1</td>
+                            <td>850</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Product1</td>
+                            <td>850</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Показати всі</a>
+            </div>
+        </main>
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-togler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Привіт, <b>Андрій</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="recent-updates">
+                <h2>Нещодавні оновлення</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Віка</b> оновила фото</p>
+                            <small class="text-muted">2 хвилини тому</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Віка</b> змінила статус</p>
+                            <small class="text-muted">5 хвилини тому</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Віка</b> поповнила картку на 5000</p>
+                            <small class="text-muted">7 хвилини тому</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="analytics">
+                <h2>Аналітика</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">schedule</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ONLINE</h3>
+                            <small class="text-muted">last 24 hours</small>
+                        </div>
+                        <h5 class="success">+ 45%</h5>
+                        <h3>3456</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">favorite_border</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>FAVOURITE</h3>
+                            <small class="text-muted">last 24 hours</small>
+                        </div>
+                        <h5 class="danger">- 50%</h5>
+                        <h3>56</h3>
+                    </div>
+                </div>
+                <div class="item new">
+                    <div class="icon">
+                        <span class="material-icons-sharp">grade</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>BEST</h3>
+                            <small class="text-muted">last 24 hours</small>
+                        </div>
+                        <h5 class="warning">+100%</h5>
+                        <h3>10000</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Додати Продукт</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
